@@ -30,8 +30,8 @@ vim.g.Easymotion_do_mapping = 0
 
 -- map b, s motion
 vim.api.nvim_set_keymap('n', '<Leader>b', '<Plug>(easymotion-s2)', {})
-vim.api.nvim_set_keymap('n', 's', '<Plug>(easymotion-s)', {})
-vim.api.nvim_set_keymap('o', 's', '<Plug>(easymotion-s)', {})
+vim.api.nvim_set_keymap('n', '<Leader>s', '<Plug>(easymotion-s)', {})
+vim.api.nvim_set_keymap('o', '<Leader>s', '<Plug>(easymotion-s)', {})
 
 
 -- map j, k motion
@@ -39,7 +39,7 @@ vim.api.nvim_set_keymap('', '<Leader>j', '<Plug>(easymotion-j)', {})
 vim.api.nvim_set_keymap('', '<Leader>k', '<Plug>(easymotion-k)', {})
 
 
-vim.api.nvim_set_keymap('', 'f', '<Plug>(easymotion-sl)', {})
+vim.api.nvim_set_keymap('', '<Leader>f', '<Plug>(easymotion-sl)', {})
 
 
 
